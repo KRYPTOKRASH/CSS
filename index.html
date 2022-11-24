@@ -7,64 +7,69 @@
     <meta name="keywords" content="bagan, cv, resume">
     <meta name="description" content="Это сайт - резюме Баган Максима">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="colors.css">
     <title>Bagan Resume</title>
 </head>
 <body>
 
-<img src="avatar.png" alt="Максим Баган" width="200">
+<div class="container">
 
 <div class="info">
-<h1>Баган Максим</h1>
 
-<p>Я front-end разработчик, владею <strong>JavaScript, HTML, CSS</strong></p>
+<img src="avatar.png" alt="Максим Баган" class="avatar"
 
-<p>Люблю <em>учиться, развиваться и путешествовать</em></p>
+<div class="info-text">
+    <h1>Баган Максим</h1>
 
-<h4>Список социальных сетей:</h4>
-<a href="https://telegram.org" target="_blank">Telegram</a> |
-<a href="https://www.instagram.com" target="_blank">Instagram</a> |
-<a href="https://www.youtube.com" target="_blank">YouTube</a>
+    <p>Я front-end разработчик, владею <strong>JavaScript, HTML, CSS</strong></p>
 
+    <p>Люблю <em>учиться, развиваться и путешествовать</em></p>
+
+    <h4>Список социальных сетей:</h4>
+    <a href="https://telegram.org" target="_blank">Telegram</a> |
+    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+</div>
 </div>
 
+<div class="card bgGreen">
+    <h2>Мои хобби</h2>
+    <ol>
+        <li>Путешествия</li>
+        <li>Книги</li>
+        <li>Консоль</li>
+    </ol>
+</div>
 
-<h2>Мои хобби</h2>
-<ol>
-    <li>Путешествия</li>
-    <li>Книги</li>
-    <li>Консоль</li>
-</ol>
-
-<h2>Опыт работы</h2>
-
-<table>
-    <thead>
-    <tr>
-        <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>LPTracker</td>
-        <td>Frontend</td>
-        <td>2015-2016</td>
-    </tr>
-    <tr>
-        <td>EPAM</td>
-        <td>Software Engineer</td>
-        <td>2016-2017</td>
-    </tr>
-    <tr>
-        <td>Software Outsourcing Services</td>
-        <td>Senior Frontend</td>
-        <td>2017-2019</td>
-    </tr>
-    </tbody>
-</table>
-
+<div class="card bgRed">
+    <h2>Опыт работы</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>LPTracker</td>
+            <td>Frontend</td>
+            <td>2015-2016</td>
+        </tr>
+        <tr>
+            <td>EPAM</td>
+            <td>Software Engineer</td>
+            <td>2016-2017</td>
+        </tr>
+        <tr>
+            <td>Software Outsourcing Services</td>
+            <td>Senior Frontend</td>
+            <td>2017-2019</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="bgYellow">
 <h2>Cвязаться со мной</h2>
 
 <form action="/">
@@ -86,12 +91,12 @@
 
     <input type="submit" value="Отправить!">
 </form>
-
+</div>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+</div>
 </body>
 </html>

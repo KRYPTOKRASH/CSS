@@ -8,8 +8,50 @@ body {
     color: #0f141e
 }
 
-.info p {
-font-style: italic;
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-style: italic;
     font-weight: bold;
     color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.card {
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bgYellow {
+    background: #fff9dc;
+}
+
+.bgRed {
+    background: #ffe5e5;
+}
+
+.bgGreen {
+    background: #e5ffe7;
 }
