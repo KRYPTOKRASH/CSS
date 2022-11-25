@@ -55,3 +55,33 @@ body {
 .bgGreen {
     background: #e5ffe7;
 }
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
